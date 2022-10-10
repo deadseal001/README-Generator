@@ -62,7 +62,7 @@ My GitHub link: [https://github.com/${b}](https://github.com/${b})
 
 `;
           break;
-        case 'Email':
+        case 'Questions':
           return `
 ## Questions
 Please contact me by [${b}](mailto:${b}) for further questions. 

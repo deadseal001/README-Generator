@@ -1,10 +1,10 @@
 # aa
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ## Table of Contents
   
   -[Title](#Title)
   -[Description](#Description)
-  -[Usage](#Usage)
+  -[Installtion](#Installtion)
   -[Contributing](#Contributing)
   -[Tests](#Tests)
   -[License](#License)
@@ -16,12 +16,12 @@
 bb
 
 
-## Usage
+## Installtion
 cc
 
 
 ## Contributing
-d
+dd
 
 
 ## Tests
@@ -29,15 +29,15 @@ ee
 
 
 ## License
-This project is covered under [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+This project is covered under [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
 
 
 ## GitHub
-My GitHub link: [https://github.com/fadfadfadf](https://github.com/fadfadfadf)         
+My GitHub link: [https://github.com/adfadfad](https://github.com/adfadfad)         
 
 
 ## Questions
-adsfadfadsfasdf@gmail.com
+Please contact me by [dfadsfadsf@gdaf.com](mailto:dfadsfadsf@gdaf.com) for further questions. 
 
 
 
