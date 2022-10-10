@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 module.exports= newArry => {
   console.log(newArry);
-  return `# ${newArry[1].b}
+  return `# ${newArry[0].b}
 ${badge(newArry)}
 ## Table of Contents
   ${newArry
@@ -46,28 +46,34 @@ ${badge(newArry)}
     .filter((element)=> element.b.length>0)
     .map(({a,b}) => {
       switch (a) {
+        case 'Title':
+          break;
         case 'License':
           return `
 ## License
 ${renderLicenseSection(b)}
+
 `;
           break;
         case 'GitHub':
           return `
 ## GitHub
 My GitHub link: [https://github.com/${b}](https://github.com/${b})         
+
 `;
           break;
         case 'Email':
           return `
 ## Questions
-Please contact me by [${b}](${b}) for further questions. 
+Please contact me by [${b}](mailto:${b}) for further questions. 
+
 `;
           break;
         default:
           return `
 ## ${a}
 ${b}
+
 `
       }
     })

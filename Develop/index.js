@@ -126,7 +126,7 @@ const newarr= arr =>{
             b:arr.github
         },
         {
-            a: 'Email',
+            a: 'Questions',
             b:arr.email
         }
     ];
