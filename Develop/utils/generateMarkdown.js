@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const licenses=require('../../assets/license-list.js');
+const licenses=require('./license-list.js');
 const badge = newArry => {
   let chosenLicense=licenses.find(element=> element.a===newArry[6].b);
     if (chosenLicense){
@@ -9,8 +9,6 @@ const badge = newArry => {
       return('');
     }
 };
-
-
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -24,7 +22,11 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return (`This project is covered under [${license}](${renderLicenseLink(license)})`)
+  if(license === 'none' ) {
+    return ('This project is not covered under any license.');
+  } else{
+    return (`This project is covered under [${license}](${renderLicenseLink(license)})`)
+  }
 }
 
 // TODO: Create a function to generate markdown for README

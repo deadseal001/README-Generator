@@ -1,43 +1,38 @@
-# aa
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+# README.md generator
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ## Table of Contents
   
   -[Title](#Title)
   -[Description](#Description)
   -[Installtion](#Installtion)
-  -[Contributing](#Contributing)
-  -[Tests](#Tests)
+  -[Usage](#Usage)
   -[License](#License)
   -[GitHub](#GitHub)
   -[Questions](#Questions)
   
   
 ## Description
-bb
+This app can help you generate a high quality README file by input the information on the command line.
 
 
 ## Installtion
-cc
+use node index.js to operate this README file generator
 
 
-## Contributing
-dd
-
-
-## Tests
-ee
+## Usage
+Follow the instructions on the command line and input the information needed.
 
 
 ## License
-This project is covered under [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+This project is covered under [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
 
 
 ## GitHub
-My GitHub link: [https://github.com/adfadfasdf](https://github.com/adfadfasdf)         
+My GitHub link: [https://github.com/deadseal001](https://github.com/deadseal001)         
 
 
 ## Questions
-Please contact me by [adfadf@gai.com](mailto:adfadf@gai.com) for further questions. 
+Please contact me by [liwenbo4936@gmail.com](mailto:liwenbo4936@gmail.com) for further questions. 
 
 
 

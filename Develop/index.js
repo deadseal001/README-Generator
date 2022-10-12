@@ -4,10 +4,11 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const licenses=require('../assets/license-list.js');
+const licenses=require('./utils/license-list.js');
 const licenseName=['none']; 
 licenses.forEach(element =>licenseName.push(element.a));
-licenseName.push('Others');
+
+
 const questions =[
         {
             type:'input',
