@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 const licenses=require('./license-list.js');
 const badge = newArry => {
-  let chosenLicense=licenses.find(element=> element.a===newArry[6].b);
+  let chosenLicense=licenses.find(element=> element.a===newArry[5].b);
     if (chosenLicense){
       return(chosenLicense.b);
     } else {
@@ -30,12 +30,12 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-module.exports= newArry => {
-  console.log(newArry);
-  return `# ${newArry[0].b}
-${badge(newArry)}
+module.exports= newArray => {
+  console.log(newArray);
+  return `# ${newArray[0].b}
+${badge(newArray)}
 ## Table of Contents
-  ${newArry
+  ${newArray
     //.filter((element)=> element.b.length>0)
     .map((b)=>{
       return`
@@ -44,7 +44,7 @@ ${badge(newArry)}
     .join('')
   }
   
-  ${newArry
+  ${newArray
     //.filter((element)=> element.b.length>0)
     .map(({a,b}) => {
       switch (a) {
