@@ -1,5 +1,5 @@
 # aa
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Table of Contents
   
   -[Title](#Title)
@@ -29,15 +29,15 @@ ee
 
 
 ## License
-This project is covered under [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
+This project is covered under [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
 
 
 ## GitHub
-My GitHub link: [https://github.com/adfadfad](https://github.com/adfadfad)         
+My GitHub link: [https://github.com/adfadfasdf](https://github.com/adfadfasdf)         
 
 
 ## Questions
-Please contact me by [dfadsfadsf@gdaf.com](mailto:dfadsfadsf@gdaf.com) for further questions. 
+Please contact me by [adfadf@gai.com](mailto:adfadf@gai.com) for further questions. 
 
 
 
