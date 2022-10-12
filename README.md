@@ -1,7 +1,7 @@
 # Professional README Generator 
 
 -[Purpose](#Purpose)
--[Build\ With](#Build\ With)
+-[Build_With](#Build_With)
 -[Usage](#Usage)
 -[Demostration](#Demostration)
 
@@ -10,7 +10,7 @@
 
 This README generator lets user to enter information on the commond line to generate a high quality README.md file.
 
-## Build With
+## Build_With
 * JavaScript
 * Node.js
 * node inquirer
