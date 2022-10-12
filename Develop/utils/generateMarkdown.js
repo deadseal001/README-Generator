@@ -36,7 +36,7 @@ module.exports= newArry => {
 ${badge(newArry)}
 ## Table of Contents
   ${newArry
-    .filter((element)=> element.b.length>0)
+    //.filter((element)=> element.b.length>0)
     .map((b)=>{
       return`
   -[${b.a}](#${b.a})`
@@ -45,7 +45,7 @@ ${badge(newArry)}
   }
   
   ${newArry
-    .filter((element)=> element.b.length>0)
+    //.filter((element)=> element.b.length>0)
     .map(({a,b}) => {
       switch (a) {
         case 'Title':
