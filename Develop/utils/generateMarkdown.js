@@ -30,7 +30,9 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-module.exports= newArray => {
+module.exports= newArry => {
+  console.log(newArry);
+  let newArray=newArry.splice(1,8);
   console.log(newArray);
   return `# ${newArray[0].b}
 ${badge(newArray)}
