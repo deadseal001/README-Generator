@@ -34,7 +34,7 @@ module.exports= newArry => {
   console.log(newArry);
   let newArray=newArry.splice(1,8);
   console.log(newArray);
-  return `# ${newArray[0].b}
+  return `# ${newArry[0].b}
 ${badge(newArray)}
 ## Table of Contents
   ${newArray
