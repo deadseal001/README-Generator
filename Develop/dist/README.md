@@ -1,5 +1,5 @@
-# readme generator
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# README file generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
   
   -[Description](#Description)
@@ -13,35 +13,35 @@
   
   
 ## Description
-fadfa
+This app can generate a readme file with the information inputted in the command line.
 
 
 ## Installtion
-adfafd
+Use node to open ./Develop/index.js to operate.
 
 
 ## Usage
-adfasdfa
+Answer the questions promoted in the comman line. After the user answers all the question. A README.md file will be generated accordingly.
 
 
 ## Contributing
-fdafa
+N/A
 
 
 ## Tests
-afdaf
+N/A
 
 
 ## License
-This project is covered under [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
+This project is covered under [The MIT License](https://opensource.org/licenses/MIT)
 
 
 ## GitHub
-My GitHub link: [https://github.com/deadseal](https://github.com/deadseal)         
+My GitHub link: [https://github.com/deadseal001](https://github.com/deadseal001)         
 
 
 ## Questions
-Please contact me by [liwenfas](mailto:liwenfas) for further questions. 
+Please contact me by [liwenbo4936@gmail.com](mailto:liwenbo4936@gmail.com) for further questions. 
 
 
 
